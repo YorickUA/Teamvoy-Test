@@ -1,0 +1,16 @@
+.playlist{
+    display:inline-block;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+#playButton, #stopButton{
+    color:green;
+}
+
+.playlist >.track.selected div{
+    background-color: BLUE;
+    color: YELLOW;
+}
